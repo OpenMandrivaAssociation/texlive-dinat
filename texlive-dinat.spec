@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/german/dinat
+# catalog-date 2008-11-11 09:02:39 +0100
+# catalog-license pd
+# catalog-version 2.5
 Name:		texlive-dinat
 Version:	2.5
 Release:	1
@@ -39,6 +45,7 @@ parts 2 and 3.
 %{_texmfdistdir}/bibtex/bst/dinat/dinat.bst
 %doc %{_texmfdistdir}/doc/bibtex/dinat/dinat-index.html
 %doc %{_texmfdistdir}/doc/bibtex/dinat/history.html
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ parts 2 and 3.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
