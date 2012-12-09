@@ -46,3 +46,17 @@ parts 2 and 3.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.5-2
++ Revision: 750959
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.5-1
++ Revision: 718232
+- texlive-dinat
+- texlive-dinat
+- texlive-dinat
+- texlive-dinat
+
