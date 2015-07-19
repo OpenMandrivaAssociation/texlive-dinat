@@ -6,7 +6,7 @@
 # catalog-version 2.5
 Name:		texlive-dinat
 Version:	2.5
-Release:	9
+Release:	10
 Summary:	Bibliography style for German texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/german/dinat
