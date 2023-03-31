@@ -1,6 +1,6 @@
 Name:		texlive-dinat
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Bibliography style for German texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/german/dinat
